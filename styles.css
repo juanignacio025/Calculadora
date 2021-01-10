@@ -1,0 +1,132 @@
+    /*
+color de fondo: #081B2E;
+fondo calculadora: #0C2E45;
+fondo calc 2: #3B94A3;
+fondo calc 3: #166982;
+fondo calc 4: #154961;
+
+
+
+*/
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #081B2E;
+}
+
+.contenedor{
+    height: 330px;
+    width: 215px;
+    position: relative;
+}
+
+.calculadora, .contacto{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background: #166982;
+    box-shadow: 0px 0px 10px #154961, 0px 0px 40px  #154961, 0px 0px 50px #154961;
+    position: absolute;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:active{
+    background: #4EC5D9;
+}
+
+.signo{
+    font-size: 17px;
+    color: #F2FE6B;
+    font-weight: bold;
+}
+
+.signo:active{
+    background: #4EC55A;
+}
+
+.info{
+    color: #88F700;
+    font-weight: bold;
+}
+
+.info:active{
+    background: #82FCEB;
+    color: black;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background: none;
+    text-align: right;
+    padding-right: 5px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    /*underline: 1px solid #4EC5D9;*/
+}
+
+::placeholder{
+    color: white;
+}
+
+
+hr{
+    margin-top: -5px;
+    border: 0.5px solid #4EC5D9;
+    width: 200px;
+}
+
+#igual{
+    width: 104px;
+}
+
+.volver{
+    position: absolute;
+    top: 300px;
+}
+h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: white;
+}
+p.title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: #F2FE6B;
+    font-weight: bold;
+}
+p.name{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: #00E1FF;
+
+}
+.redes{
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px solid white;
+    font-size: 13px;
+}
